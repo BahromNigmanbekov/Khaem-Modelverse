@@ -17,6 +17,7 @@ function App() {
         </a>
         <h1>salom</h1>
         <h1>saloom</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis veritatis ex cum quidem, necessitatibus delectus maiores accusamus eligendi error perferendis, illo minima tenetur nihil atque quaerat commodi, consectetur obcaecati ipsa.</p>
       </div>
       <h1>Vite + React</h1>
       <div className="card">

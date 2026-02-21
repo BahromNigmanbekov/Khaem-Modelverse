@@ -1,0 +1,35 @@
+form{
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.882);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    margin-right: 30%;
+    position: fixed;
+    top: 91%;
+    right: 10%;
+    z-index: 1000;
+}
+
+.search-i{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-left: 12px;
+}
+
+
+
+.search-btn{
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding-right: 5px;
+}

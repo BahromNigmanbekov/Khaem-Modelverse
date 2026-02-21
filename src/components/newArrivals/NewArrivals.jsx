@@ -1,5 +1,5 @@
 import React from "react";
-import "./NewArrivals.css";
+import "./newArrivals.css";
 import Products from "../../components/products/Products";
 
 import { FaArrowRight } from "react-icons/fa6";

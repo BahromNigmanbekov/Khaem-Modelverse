@@ -33,3 +33,19 @@
     color: rgb(0, 0, 0);
     padding-right: 5px;
 }
+
+@media (max-width: 768px) {
+    .s-form{
+        width: 60%;
+        display: flex;
+        margin-right: 10%; 
+    }
+
+    .search-i{
+        width: 100%;
+        background: transparent;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding-left: 12px;
+    }
+}

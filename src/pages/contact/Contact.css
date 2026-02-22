@@ -66,6 +66,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;   /* MUHIM */
+  margin-top: 40px;
 }
 
 .sectionBottomForm {
@@ -119,3 +120,27 @@
 }
 
 
+@media (max-width: 768px) {
+  .sectionTopCartItem {
+    width: 90%;
+  }
+
+  .sectionTopCarsList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionBottomForm {
+    width: 90%;
+  }
+
+  .sectionBottom {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .sectionBottomBtn{
+    width: 100%;
+  }
+}

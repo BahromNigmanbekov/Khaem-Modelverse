@@ -208,3 +208,45 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .productCenter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftContainer,
+  .productRightContainer {
+    width: 100%;
+  }
+
+  .swiperImgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .swiperImgs > img {
+    width: 80%;
+    height: auto;
+  }
+
+  .productLeft {
+    padding: 20px;
+    height: auto;
+  }
+
+  .productRight > h2 {
+    font-size: 28px;
+  }
+
+  .productRight > p {
+    font-size: 14px;
+  }
+
+  .wn {
+    font-size: 20px;
+  }
+
+  .productLeftImg {
+    height: auto;   
+  }
+}

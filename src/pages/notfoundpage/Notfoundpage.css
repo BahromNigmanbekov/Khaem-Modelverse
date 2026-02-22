@@ -1,0 +1,7 @@
+.notpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px auto;
+    text-align: center;
+}

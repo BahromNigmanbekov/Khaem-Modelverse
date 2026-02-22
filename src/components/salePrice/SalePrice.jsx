@@ -1,5 +1,5 @@
 import React from "react";
-import "./SalePrice.css";
+import "./salePrice.css";
 
 import { NavLink } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";

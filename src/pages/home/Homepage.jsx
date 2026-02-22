@@ -17,6 +17,8 @@ import HomeSwiper from "../../components/homeSwiper/HomeSwiper";
 import SimplyUnique from "../../components/simplyUnique/SimplyUnique";
 import Category from "../../components/category/Category";
 import NewArrivals from "../../components/newArrivals/NewArrivals";
+import Support from "../../components/support/Support";
+import SalePrice from "../../components/salePrice/SalePrice";
 
 
 
@@ -24,10 +26,12 @@ import NewArrivals from "../../components/newArrivals/NewArrivals";
 function Home() {
   return (
     <main>
-      <HomeSwiper/> 
-      <SimplyUnique/>   
-      <Category/> 
-      <NewArrivals/>
+      <HomeSwiper />
+      <SimplyUnique />
+      <Category />
+      <NewArrivals />
+      <Support />
+      <SalePrice />
     </main>
   );
 }

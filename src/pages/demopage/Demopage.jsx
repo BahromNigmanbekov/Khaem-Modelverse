@@ -85,7 +85,7 @@ function Demopage() {
 
             <div className="productRightContainer">
               <h2>{data?.title}</h2>
-              <p>{data?.desc}</p>
+              <p className="desc">{data?.desc}</p>
               <p className="price">{data?.price}$</p>
 
            <div className="county">

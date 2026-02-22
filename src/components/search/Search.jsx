@@ -5,7 +5,7 @@ import './Search.css'
 function Search() {
   return (
     <div>
-      <form action="">
+      <form className='s-form' action="">
         <input className='search-i' type="text" placeholder="Search..." />
         <button className='search-btn'><FaSearch /></button>
       </form>

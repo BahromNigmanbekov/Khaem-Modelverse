@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Header.css'
-import { FaBell , FaUserAlt } from 'react-icons/fa'
+import { FaBell, FaUserAlt } from 'react-icons/fa'
 import { BsFillBasket3Fill } from 'react-icons/bs'
 
 function Header() {
@@ -9,14 +9,15 @@ function Header() {
         <div className="container">
             <div className="header">
 
-                <h2 className='logo'>Khaem <span className='logos'>\</span></h2>
+                <h2 className='logo'>Paxta<span className='logos'>.</span></h2>
 
 
                 <ul className='ul-list'>
                     <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/contact">Contact</NavLink></li>
-                    <li><NavLink to="/demo">Demo</NavLink></li>
+
                     <li><NavLink to="/shop">Shop</NavLink></li>
+
+                    <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
 
                 <div className="buttons">

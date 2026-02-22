@@ -1,5 +1,7 @@
 import React from 'react'
 import More from '../../components/more/More'
+import Search from '../../components/search/Search'
+import "./Shoppage.css"
 
 function Shoppage() {
   return (
@@ -12,6 +14,7 @@ function Shoppage() {
       <More/>
       <button className="shopPageBtn">You Like</button>
     </div>
+    <Search/>
     </>
   )
 }

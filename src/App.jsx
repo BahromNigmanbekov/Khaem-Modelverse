@@ -9,7 +9,18 @@ import Header from './components/header/Header'
 import Search from './components/search/Search'
 import Footer from './components/footer/Footer'
 
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+   useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: true, 
+    });
+  }, []);
 
   return (
     <>
@@ -21,7 +32,7 @@ function App() {
       <Route path='/contact' element={<Contact />} />
       <Route path='*' element={<Notfoundpage />} />
      </Routes>
-     <Search/>
+     {/* <Search/> */}
      <Footer />
     </>
   )
